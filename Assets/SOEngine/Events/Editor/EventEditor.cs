@@ -1,7 +1,7 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-[CustomEditor(typeof(GameEvent))]
+[CustomEditor(typeof(EventObject))]
 public class EventEditor : Editor
 {
 	public override void OnInspectorGUI()
@@ -10,7 +10,7 @@ public class EventEditor : Editor
 
 		GUI.enabled = Application.isPlaying;
 
-		GameEvent e = target as GameEvent;
+		EventObject e = target as EventObject;
 		if (GUILayout.Button("InvokeEvent"))
 		{
 			e.InvokeEvent();

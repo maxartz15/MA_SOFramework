@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
 
-[CreateAssetMenu]
-public class GameEvent : ScriptableObject
+[CreateAssetMenu(menuName = "SOEngine/Objects/Event")]
+public class EventObject : ScriptableObject
 {
-    private List<GameEventListener> eventListeners = new List<GameEventListener>();
+    private List<ObjectEventListener> eventListeners = new List<ObjectEventListener>();
 
     public void InvokeEvent()
     {
@@ -16,13 +16,13 @@ public class GameEvent : ScriptableObject
 		}
     }
 
-    public void RegisterListener(GameEventListener listener)
+    public void RegisterListener(ObjectEventListener listener)
     {
         if (!eventListeners.Contains(listener))
             eventListeners.Add(listener);
     }
 
-    public void UnregisterListener(GameEventListener listener)
+    public void UnregisterListener(ObjectEventListener listener)
     {
         if (eventListeners.Contains(listener))
             eventListeners.Remove(listener);
