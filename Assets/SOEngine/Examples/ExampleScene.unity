@@ -125,6 +125,7 @@ GameObject:
   - component: {fileID: 567618714}
   - component: {fileID: 567618716}
   - component: {fileID: 567618713}
+  - component: {fileID: 567618717}
   m_Layer: 5
   m_Name: Text
   m_TagString: Untagged
@@ -225,6 +226,35 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!114 &567618717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567618711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e839e4c12473014b9b3d3faccc0f61d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_objectEvent: {fileID: 11400000, guid: eec27a1c63ea67a46adcfe6696775d9b, type: 2}
+  m_onObjectEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 567618714}
+        m_MethodName: set_fontSize
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 16
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &742133640
 GameObject:
   m_ObjectHideFlags: 0
@@ -553,6 +583,7 @@ GameObject:
   - component: {fileID: 1150365588}
   - component: {fileID: 1150365587}
   - component: {fileID: 1150365586}
+  - component: {fileID: 1150365590}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -593,13 +624,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_eventType:
-    m_useUnity: 0
+    m_useUnity: 1
     m_unityEvent:
       m_PersistentCalls:
         m_Calls: []
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
     m_objectEvent: {fileID: 11400000, guid: eec27a1c63ea67a46adcfe6696775d9b, type: 2}
+  m_test: 0
 --- !u!114 &1150365587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -690,6 +722,35 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1150365584}
   m_CullTransparentMesh: 0
+--- !u!114 &1150365590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150365584}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e839e4c12473014b9b3d3faccc0f61d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_objectEvent: {fileID: 11400000, guid: eec27a1c63ea67a46adcfe6696775d9b, type: 2}
+  m_onObjectEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1150365584}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1727128367
 GameObject:
   m_ObjectHideFlags: 0
@@ -723,6 +784,93 @@ MonoBehaviour:
     m_useLocal: 0
     m_localValue: 0
     m_objectValue: {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
+  health1:
+    m_useLocal: 0
+    m_localValue: 0
+    m_objectValue: {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
+  faesoifhase123jlfh: 0
+  health2:
+    m_useLocal: 0
+    m_localValue: 0
+    m_objectValue: {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
+  faesoifhasejlfh: 0
+  newHealh: {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
+  dammfloats:
+  - {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
+  - {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
+  - {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  dammdsdfloats:
+  - m_useLocal: 0
+    m_localValue: 0
+    m_objectValue: {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
+  fasdfasdf:
+  - sdfioasheruopahf:
+      m_useLocal: 1
+      m_localValue: 1.82
+      m_objectValue: {fileID: 0}
+    myfloat: 0
+    asdkdj: {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
+  - sdfioasheruopahf:
+      m_useLocal: 1
+      m_localValue: 0
+      m_objectValue: {fileID: 0}
+    myfloat: 0
+    asdkdj: {fileID: 0}
+  - sdfioasheruopahf:
+      m_useLocal: 1
+      m_localValue: 0
+      m_objectValue: {fileID: 0}
+    myfloat: 0
+    asdkdj: {fileID: 0}
+  - sdfioasheruopahf:
+      m_useLocal: 1
+      m_localValue: 0
+      m_objectValue: {fileID: 0}
+    myfloat: 0
+    asdkdj: {fileID: 0}
+  - sdfioasheruopahf:
+      m_useLocal: 1
+      m_localValue: 0
+      m_objectValue: {fileID: 0}
+    myfloat: 0
+    asdkdj: {fileID: 0}
+  - sdfioasheruopahf:
+      m_useLocal: 1
+      m_localValue: 0
+      m_objectValue: {fileID: 0}
+    myfloat: 0
+    asdkdj: {fileID: 0}
+  - sdfioasheruopahf:
+      m_useLocal: 1
+      m_localValue: 0
+      m_objectValue: {fileID: 0}
+    myfloat: 0
+    asdkdj: {fileID: 0}
+  - sdfioasheruopahf:
+      m_useLocal: 1
+      m_localValue: 0
+      m_objectValue: {fileID: 0}
+    myfloat: 0
+    asdkdj: {fileID: 0}
+  - sdfioasheruopahf:
+      m_useLocal: 1
+      m_localValue: 0
+      m_objectValue: {fileID: 0}
+    myfloat: 0
+    asdkdj: {fileID: 0}
+  - sdfioasheruopahf:
+      m_useLocal: 1
+      m_localValue: 0
+      m_objectValue: {fileID: 0}
+    myfloat: 0
+    asdkdj: {fileID: 0}
 --- !u!4 &1727128369
 Transform:
   m_ObjectHideFlags: 0

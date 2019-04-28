@@ -1,19 +1,22 @@
 ﻿using UnityEditor;
 using UnityEngine;
 
-[CustomEditor(typeof(EventObject))]
-public class EventEditor : Editor
+namespace SOEngine.Base
 {
-	public override void OnInspectorGUI()
+	[CustomEditor(typeof(eventObject))]
+	public class EventEditor : Editor
 	{
-		base.OnInspectorGUI();
-
-		GUI.enabled = Application.isPlaying;
-
-		EventObject e = target as EventObject;
-		if (GUILayout.Button("InvokeEvent"))
+		public override void OnInspectorGUI()
 		{
-			e.InvokeEvent();
+			base.OnInspectorGUI();
+
+			GUI.enabled = Application.isPlaying;
+
+			eventObject e = target as eventObject;
+			if (GUILayout.Button("InvokeEvent"))
+			{
+				e.InvokeEvent();
+			}
 		}
 	}
 }
