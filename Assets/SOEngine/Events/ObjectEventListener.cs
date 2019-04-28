@@ -1,26 +1,30 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
+using SOEngine.Base;
 
-public class ObjectEventListener : MonoBehaviour
+namespace SOEngine
 {
-	[Tooltip("Event to register with.")]
-	public EventObject m_objectEvent;
-
-	[SerializeField]
-	private UnityEvent m_onObjectEvent = null;
-
-	private void OnEnable()
+	public class ObjectEventListener : MonoBehaviour
 	{
-		m_objectEvent.RegisterListener(this);
-	}
+		[Tooltip("Event to register with.")]
+		public eventObject m_objectEvent;
 
-	private void OnDisable()
-	{
-		m_objectEvent.UnregisterListener(this);
-	}
+		[SerializeField]
+		private UnityEvent m_onObjectEvent = null;
 
-	public void OnInvokeEvent()
-	{
-		m_onObjectEvent.Invoke();
+		private void OnEnable()
+		{
+			m_objectEvent.RegisterListener(this);
+		}
+
+		private void OnDisable()
+		{
+			m_objectEvent.UnregisterListener(this);
+		}
+
+		public void OnInvokeEvent()
+		{
+			m_onObjectEvent.Invoke();
+		}
 	}
 }
