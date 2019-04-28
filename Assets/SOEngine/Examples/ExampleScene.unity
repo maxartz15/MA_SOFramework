@@ -623,15 +623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 421af6b8ec10be3418f1167f46b71835, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_eventType:
-    m_useUnity: 1
-    m_unityEvent:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-    m_objectEvent: {fileID: 11400000, guid: eec27a1c63ea67a46adcfe6696775d9b, type: 2}
-  m_test: 0
+  m_event: {fileID: 11400000, guid: eec27a1c63ea67a46adcfe6696775d9b, type: 2}
 --- !u!114 &1150365587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -784,93 +776,6 @@ MonoBehaviour:
     m_useLocal: 0
     m_localValue: 0
     m_objectValue: {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
-  health1:
-    m_useLocal: 0
-    m_localValue: 0
-    m_objectValue: {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
-  faesoifhase123jlfh: 0
-  health2:
-    m_useLocal: 0
-    m_localValue: 0
-    m_objectValue: {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
-  faesoifhasejlfh: 0
-  newHealh: {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
-  dammfloats:
-  - {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
-  - {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
-  - {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  dammdsdfloats:
-  - m_useLocal: 0
-    m_localValue: 0
-    m_objectValue: {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
-  fasdfasdf:
-  - sdfioasheruopahf:
-      m_useLocal: 1
-      m_localValue: 1.82
-      m_objectValue: {fileID: 0}
-    myfloat: 0
-    asdkdj: {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
-  - sdfioasheruopahf:
-      m_useLocal: 1
-      m_localValue: 0
-      m_objectValue: {fileID: 0}
-    myfloat: 0
-    asdkdj: {fileID: 0}
-  - sdfioasheruopahf:
-      m_useLocal: 1
-      m_localValue: 0
-      m_objectValue: {fileID: 0}
-    myfloat: 0
-    asdkdj: {fileID: 0}
-  - sdfioasheruopahf:
-      m_useLocal: 1
-      m_localValue: 0
-      m_objectValue: {fileID: 0}
-    myfloat: 0
-    asdkdj: {fileID: 0}
-  - sdfioasheruopahf:
-      m_useLocal: 1
-      m_localValue: 0
-      m_objectValue: {fileID: 0}
-    myfloat: 0
-    asdkdj: {fileID: 0}
-  - sdfioasheruopahf:
-      m_useLocal: 1
-      m_localValue: 0
-      m_objectValue: {fileID: 0}
-    myfloat: 0
-    asdkdj: {fileID: 0}
-  - sdfioasheruopahf:
-      m_useLocal: 1
-      m_localValue: 0
-      m_objectValue: {fileID: 0}
-    myfloat: 0
-    asdkdj: {fileID: 0}
-  - sdfioasheruopahf:
-      m_useLocal: 1
-      m_localValue: 0
-      m_objectValue: {fileID: 0}
-    myfloat: 0
-    asdkdj: {fileID: 0}
-  - sdfioasheruopahf:
-      m_useLocal: 1
-      m_localValue: 0
-      m_objectValue: {fileID: 0}
-    myfloat: 0
-    asdkdj: {fileID: 0}
-  - sdfioasheruopahf:
-      m_useLocal: 1
-      m_localValue: 0
-      m_objectValue: {fileID: 0}
-    myfloat: 0
-    asdkdj: {fileID: 0}
 --- !u!4 &1727128369
 Transform:
   m_ObjectHideFlags: 0
