@@ -44,6 +44,8 @@ namespace SOEngine.Base
 			//Draw foldout arrow.
 			if (property.objectReferenceValue != null)
 				property.isExpanded = EditorGUI.Foldout(position, property.isExpanded, GUIContent.none);
+			else
+				property.isExpanded = false;
 
 			//Set property height.
 			if (property.isExpanded)

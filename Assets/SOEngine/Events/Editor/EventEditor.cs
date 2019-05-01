@@ -10,6 +10,7 @@ namespace SOEngine.Base
 		{
 			base.OnInspectorGUI();
 
+			bool wasEnabled = GUI.enabled;
 			GUI.enabled = Application.isPlaying;
 
 			eventObject e = target as eventObject;
@@ -17,6 +18,8 @@ namespace SOEngine.Base
 			{
 				e.InvokeEvent();
 			}
+
+			GUI.enabled = wasEnabled;
 		}
 	}
 }
