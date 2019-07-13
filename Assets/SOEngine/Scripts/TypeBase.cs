@@ -6,7 +6,7 @@
 		public T m_localValue;
 		public ScriptableObjectTypeBase<T> m_objectValue;
 
-		public TypeBase() { }
+		public TypeBase() {}
 
 		public TypeBase(T value)
 		{

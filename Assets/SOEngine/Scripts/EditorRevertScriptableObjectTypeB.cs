@@ -41,7 +41,7 @@ namespace SOEngine.Base
 			//SaveValues.
 			foreach (ScriptableObjectTypeB s in GetScriptableObjectTypeBs("Saving"))
 			{
-				s.SaveValues();
+				s.EditorSaveValues();
 			}
 		}
 
@@ -50,7 +50,7 @@ namespace SOEngine.Base
 			//RestoreValues.
 			foreach (ScriptableObjectTypeB s in GetScriptableObjectTypeBs("Reverting"))
 			{
-				s.RestoreValues();
+				s.EditorRestoreValues();
 			}
 		}
 

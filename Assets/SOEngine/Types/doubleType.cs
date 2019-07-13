@@ -12,7 +12,7 @@ namespace SOEngine
 		{
 			get
 			{
-				return m_useLocal ? m_localValue : m_objectValue.m_value;
+				return m_useLocal ? m_localValue : m_objectValue.Value;
 			}
 			set
 			{
@@ -22,7 +22,7 @@ namespace SOEngine
 				}
 				else
 				{
-					m_objectValue.m_value = value;
+					m_objectValue.Value = value;
 				}
 			}
 		}

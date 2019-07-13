@@ -6,6 +6,7 @@ namespace SOEngine.Base
 	public class TypeB
 	{
 		public bool m_useLocal = true;
+		public bool m_useEvent = true;
 		//private UnityEvent m_onChangeEvent = null;
 
 		//protected void InvokeChangeEvent()

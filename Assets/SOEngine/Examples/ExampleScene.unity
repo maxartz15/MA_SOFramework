@@ -165,10 +165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 567618714}
-  health:
-    m_useLocal: 0
-    m_localValue: 0
-    m_objectValue: {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
+  health: {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
 --- !u!114 &567618714
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -775,6 +772,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health:
     m_useLocal: 0
+    m_useEvent: 1
     m_localValue: 0
     m_objectValue: {fileID: 11400000, guid: 876d0d697f1a1f54794be8cc3ca92e6f, type: 2}
 --- !u!4 &1727128369

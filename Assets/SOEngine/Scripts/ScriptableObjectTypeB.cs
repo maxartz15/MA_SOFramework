@@ -8,8 +8,8 @@ namespace SOEngine.Base
 
 
 #if UNITY_EDITOR
-		public abstract void SaveValues();
-		public abstract void RestoreValues();
+		public abstract void EditorSaveValues();
+		public abstract void EditorRestoreValues();
 #endif
 	}
 }

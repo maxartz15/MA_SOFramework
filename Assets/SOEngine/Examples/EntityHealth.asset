@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   e_keepChanges: 0
   e_developerDescription: The health of the entity.
-  m_value: 100
+  m_value: 50
